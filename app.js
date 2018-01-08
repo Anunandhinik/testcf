@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 
 app.use(bodyparser.json());
 
-require('./app/routes')(app);  //For MongoDB
+//require('./app/routes')(app);  //For MongoDB
 
 
 //app.use('views',__dirname + '/views');

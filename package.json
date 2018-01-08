@@ -1,0 +1,25 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "botframework poc",
+  "main": "app.js",
+  "scripts": {
+    "test": "test the MEAN app",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongojs": "*",
+    "nodemon": "^1.11.0"
+  },
+  "author": "Cognizant",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engine":{
+  "node": "6.10.x" ,
+  "npm": "3.10.x"
+  }
+}
